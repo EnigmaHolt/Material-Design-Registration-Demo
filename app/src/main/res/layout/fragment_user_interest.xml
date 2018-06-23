@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm looking for:" />
+
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/select_interest_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Select your interesting one's gender"
+                android:inputType="numberDecimal"
+                app:met_floatingLabel="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Age of interest" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
+            <com.appyvet.materialrangebar.RangeBar
+
+                android:id="@+id/select_age_range"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mrb_tickEnd="100"
+                app:mrb_tickInterval="1"
+                app:mrb_tickStart="18" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Not tell</item>
+    </string-array>
+
+    <string-array name="race_list">
+        <item>American Indian or Alaska Native</item>
+        <item>Asian</item>
+        <item>Black or African American</item>
+        <item>Native Hawaiian or Other Pacific Islander</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="religion_list">
+        <item>Christianity</item>
+        <item>Islam</item>
+        <item>Nonreligious</item>
+        <item>Hinduism</item>
+        <item>Chinese traditional religion</item>
+        <item>Buddhism</item>
+        <item>Primal-indigenous</item>
+    </string-array>
+</resources>  
